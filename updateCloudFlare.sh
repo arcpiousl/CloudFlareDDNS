@@ -4,8 +4,8 @@
 IPv4=true
 IPv6=false
 Logfile="/var/log/ddns.log"
-URL="https://www.example.com/updateCloudFlare.php"
-Token="***Insert Your Key Here***"
+URL="http://arcless.cn/updateCloudFlare.php"
+Token="Kl5O7e0OGLo0yaFxIkWG"
 ##############################################
 
 date >> $Logfile

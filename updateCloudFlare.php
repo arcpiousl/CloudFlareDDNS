@@ -9,10 +9,7 @@ Site: https://scotthelme.co.uk
 // Key example: Kqt9TH4qBEOfNSGWfPM0
 // Insert the appropriate "key" => "subdomain" values below
 $hosts = array(
-	"***Insert Random Key1 Here***" => "subdomain1",
-	"***Insert Random Key2 Here***" => "subdomain2",
-	"***Insert Random Key3 Here***" => "subdomain3",
-	"***Insert Random KeyX Here***" => "subdomainX"
+	"Kl5O7e0OGLo0yaFxIkWG" => "bbs",
 );
 
 // Check the calling client has a valid auth key.
@@ -23,9 +20,9 @@ if (empty($_POST['auth'])) {
 }
 
 // Update these values with your own information.
-$apiKey       = "CloudFlareApiKey";                         // Your CloudFlare API Key.
-$myDomain     = "example.com";                              // Your domain name.
-$emailAddress = "CloudFlareAccountEmailAddress";            // The email address of your CloudFlare account.
+$apiKey       = "8684e215088afc8f867f4753f1b7c3583c72e";                         // Your CloudFlare API Key.
+$myDomain     = "arcless.cn";                              // Your domain name.
+$emailAddress = "arc824703003@gmail.com";            // The email address of your CloudFlare account.
 
 // These values do not need to be changed.
 if (empty($hosts[$_POST['auth']]))
