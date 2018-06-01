@@ -3,8 +3,8 @@
 ########## Edit the following lines ##########
 IPv4=true
 IPv6=false
-Logfile="/var/log/ddns.log"
-URL="http://arcless.cn/updateCloudFlare.php"
+Logfile="C:/Tmps/log/ddns.log"
+URL="http://arcloud.name/updateCloudFlare.php"
 Token="Kl5O7e0OGLo0yaFxIkWG"
 ##############################################
 

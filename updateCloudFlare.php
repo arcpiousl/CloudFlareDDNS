@@ -21,7 +21,7 @@ if (empty($_POST['auth'])) {
 
 // Update these values with your own information.
 $apiKey       = "8684e215088afc8f867f4753f1b7c3583c72e";                         // Your CloudFlare API Key.
-$myDomain     = "arcless.cn";                              // Your domain name.
+$myDomain     = "arcloud.name";                              // Your domain name.
 $emailAddress = "arc824703003@gmail.com";            // The email address of your CloudFlare account.
 
 // These values do not need to be changed.
